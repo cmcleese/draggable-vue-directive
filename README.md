@@ -11,6 +11,10 @@
 
 Vue directive (Vue.js 2.x) for handling element drag & drop.
 
+## NOTES
+
+Includes firefox fix : [Fix ReferenceError: "TouchEvent is not defined" in Firefox ](https://github.com/IsraelZablianov/draggable-vue-directive/pull/43)
+
 
 ## Installation
 
