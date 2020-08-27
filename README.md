@@ -19,7 +19,7 @@ Includes firefox fix : [Fix ReferenceError: "TouchEvent is not defined" in Firef
 ## Installation
 
 ```console
-npm install draggable-vue-directive --save
+npm install @cmcleese/draggable-vue-directive --save
 ```
 
 ## Demo
