@@ -11,6 +11,7 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Draggable = void 0;
 var ChangePositionType;
 (function (ChangePositionType) {
     ChangePositionType[ChangePositionType["Start"] = 1] = "Start";
@@ -138,7 +139,7 @@ exports.Draggable = {
                     top: event.clientY
                 };
             }
-            if (event instanceof TouchEvent) {
+            if (window.TouchEvent && event instanceof TouchEvent) {
                 var touch = event.changedTouches[event.changedTouches.length - 1];
                 return {
                     left: touch.clientX,
